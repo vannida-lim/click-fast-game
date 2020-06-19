@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Click Fast</title>
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
   </head>
   <body>
-      <div id='content'>
-          Timer: <span id='timer'></span><br/>
-          Score: <span id='score'></span><br/>
-          Clicks: <span id='clicks'></span><br/>
+      <div id='content' class='nes-container is-dark with-title'>
+        <p class='title'>Click Fast <i class="nes-logo"></i></p>
+        <p>Timer: <span id='timer'>0</span></p>
+        <p>Score: <span id='score'>0</span></p>
+        <p>Clicks: <span id='clicks'>0</span></p>
       </div>
-      <div className='toggled' id='click-area'>
-          <button id='start'>Start</button>
+      <div id='click-area' class='nes-container is-dark'>
+          <button id='start'type='button' class='nes-btn is-primary'>
+            Start
+          </button>
+      </div>
+
+      <div id='footer'>
+        <a href='https://github.com/vannida-lim/click-fast-game'>
+          <i class="nes-icon github is-medium"></i>
+        </a>
       </div>
   </body>
   <script type='text/javascript' src='./index.js'></script>

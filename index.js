@@ -2,6 +2,7 @@ let score = null
 let duration = 10
 let startTime = null
 let ended = true
+let seconds = 4
 
 let timerText = document.querySelector('#timer')
 let scoreText = document.querySelector('#score')
@@ -10,14 +11,23 @@ let startButton = document.querySelector('#start')
 let clickArea = document.querySelector('#click-area')
 
 startButton.addEventListener('click', (e) => {
+    // setTimeout(() => {
+    //     startGame()
+    // }, 3000)
+
+    setInterval(() => {
+        seconds--
+        clickArea.textContent = seconds
+        if (seconds <= 0) {
+            clickArea.textContent = "GO!"
+            clearInterval()
+        }
+    }, 1000)
     startGame()
+  
 })
 
 clickArea.addEventListener('click', (e) => {
-    // if (clickArea.className !== toggl) {
-    //     clickArea.style.background = 'blue'
-    // }
-
     if (!ended) {
         score++
         scoreText.textContent = score

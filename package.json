@@ -1,0 +1,23 @@
+{
+  "name": "click-fast-game",
+  "version": "1.0.0",
+  "description": "ClickFast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vannida-lim/click-fast-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vannida-lim/click-fast-game/issues"
+  },
+  "homepage": "https://github.com/vannida-lim/click-fast-game",
+  "dependencies": {
+    "nes.css": "^2.3.0"
+  }
+}
