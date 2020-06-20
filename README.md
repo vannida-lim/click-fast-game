@@ -24,13 +24,16 @@ This web app makes use of the following:
 **Front End**
 
 -   JavaScript (ES6)
--   HTML5
+-   HTML5 
 -   CSS3
+-   [nes.css](https://nostalgic-css.github.io/NES.css/#)
 
 **Installing**
 --------------
 -   Clone this repo to your local machine `git clone git <this-repo-url>`
 
 -   `cd`  to `click-fast-game`
+
+-   run `npm install` to install all dependencies 
 
 -   run  `open index.html` to start server locally
