@@ -9,7 +9,7 @@ Lim</a>
 
 **See it Live** 
 ------------
-![Netlify](https://click-fast-game.netlify.app/)
+[Netlify](https://click-fast-game.netlify.app/)
 
 **Features**
 ------------
