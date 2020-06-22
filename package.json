@@ -18,7 +18,5 @@
     "url": "https://github.com/vannida-lim/click-fast-game/issues"
   },
   "homepage": "https://github.com/vannida-lim/click-fast-game",
-  "dependencies": {
-    "nes.css": "^2.3.0"
-  }
+  "dependencies": {}
 }
